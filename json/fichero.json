@@ -1,0 +1,492 @@
+{
+    "@backgrounds": [
+        {
+            "id":"1",
+            "author":"Carlo Obrien",
+            "width":500,
+            "height":500,
+            "name":"historia",
+            "tipo":"background",
+            "url":"./img/bg1.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/madera-ligero-ciudad-gente-15229630/",
+            "__comment": "no utilizare el width, height, author es meramente informativa"
+        },
+        {
+            "id":"2",
+            "author":"Zarak Khan",
+            "width":1500,
+            "height":1000,
+            "name":"records",
+            "tipo":"background",
+            "url":"./img/bg2.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/granos-cafeina-cafe-naturaleza-muerta-4314726/"
+        },
+        {
+            "id":"3",
+            "author":"Pavel Danilyuk",
+            "width":1500,
+            "height":1000,
+            "name":"opiniones",
+            "tipo":"background",
+            "url":"./img/bg3.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/cafe-taza-cuaderno-mesa-de-madera-6763900/"
+        },{
+            "id":"4",
+            "author":"O'NEIL GONZALES",
+            "width":1920,
+            "height":1280,
+            "name":"carousel1",
+            "tipo":"carousel",
+            "url":"./img/carousel1.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/cafeina-asado-granos-de-cafe-granos-de-cafe-tostado-14047776/"
+        },{
+            "id":"5",
+            "author":"ivan quijano",
+            "width":1920,
+            "height":1280,
+            "name":"carousel2",
+            "tipo":"carousel",
+            "url":"./img/carousel2.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/cafeina-cafe-molido-taza-de-cafe-tiro-vertical-13220288/"
+        },{
+            "id":"6",
+            "author":"Monstera",
+            "width":1920,
+            "height":1280,
+            "name":"carousel3",
+            "tipo":"carousel",
+            "url":"./img/carousel3.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/sano-cafeina-cafe-cuchara-6621433/"
+        },
+        {
+            "id":"7",
+            "author":"Fatih Arslan",
+            "width":1920,
+            "height":1280,
+            "name":"carouselshop",
+            "tipo":"carousel",
+            "url":"./img/carousel4.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/comida-granos-cafe-naturaleza-muerta-5926957/"
+        },
+        {
+            "id":"8",
+            "author":"Monstera",
+            "width":1920,
+            "height":1280,
+            "name":"carousel5",
+            "tipo":"carousel",
+            "url":"./img/carousel5.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/comida-sano-ligero-persona-7412066/"
+        }
+        ,
+        {
+            "id":"9",
+            "author":"pixabay",
+            "width":1920,
+            "height":1280,
+            "name":"carouselblog",
+            "tipo":"carousel",
+            "url":"./img/carousel6.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/taza-llena-de-cafe-cerca-del-libro-261579/"
+        }
+    ],
+    "@products":[
+        {
+            "id":"1",
+            "titulo":"Cafe Molido",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"molido",
+            "promo":"false",
+            "informacion":"Un café tostado medio con un sabor suave y un aroma delicado. Ideal para aquellos que prefieren un sabor menos fuerte.",
+            "url":"./img/bags/bag-molido1.png",
+            "download_url":"https://dream.ai/",
+            "__comment": "la informacion y el precio se cambiara para cada producto de momento solo puse u precio y inforacion general "
+        },
+        {
+            "id":"2",
+            "titulo":"Cafe en Molido",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"molido",
+            "promo":"false",
+            "informacion":"Un café suave y sutil con un aroma fresco y un sabor suave. Ideal para comenzar el día.",
+            "url":"./img/bags/bag-molido2.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"3",
+            "titulo":"Cafe Molido",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"molido",
+            "promo":"false",
+            "informacion":"Un café con un sabor fuerte y un aroma intenso. Ideal para aquellos que aman el café fuerte.",
+            "url":"./img/bags/bag-molido3.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"4",
+            "titulo":"Cafe Molido",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"molido",
+            "promo":"false",
+            "informacion":"Un café suave y cremoso con un aroma suave y un sabor afrutado.",
+            "url":"./img/bags/bag-molido4.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"5",
+            "titulo":"Cafe en Grano",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"grano",
+            "promo":"false",
+            "informacion":"Una mezcla fuerte de granos de café de diferentes regiones, con un sabor y aroma fuertes.",
+            "url":"./img/bags/bag-grano1.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"6",
+            "titulo":"Cafe en Grano",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"grano",
+            "promo":"false",
+            "informacion":"Un café suave y cremoso con un aroma delicado y un sabor suave.",
+            "url":"./img/bags/bag-grano2.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"7",
+            "titulo":"Cafe en Grano",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"grano",
+            "promo":"false",
+            "informacion":"Una mezcla de granos de café de la selva tropical, con un sabor y aroma únicos. ",
+            "url":"./img/bags/bag-grano3.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"8",
+            "titulo":"Cafe en Grano",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"grano",
+            "promo":"false",
+            "informacion":"Un café con un sabor y aroma a frutas tropicales, ideal para aquellos que quieren un sabor exótico.",
+            "url":"./img/bags/bag-grano4.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"9",
+            "titulo":"Cafe en Capsulas",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"capsulas",
+            "promo":"false",
+            "informacion":"Un café con un sabor y aroma europeos, perfecto para aquellos que aman el café europeo.",
+            "url":"./img/bags/bag-capsulas1.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"10",
+            "titulo":"Cafe en Capsulas",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"capsulas",
+            "promo":"false",
+            "informacion":" Un café cultivado en las montañas con un sabor y aroma frescos y naturales.",
+            "url":"./img/bags/bag-capsulas2.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"11",
+            "titulo":"Cafe en Capsulas",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"capsulas",
+            "promo":"false",
+            "informacion":"Un café tostado al sol del sur, con un sabor y aroma cálidos. ",
+            "url":"./img/bags/bag-capsulas3.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"12",
+            "titulo":"Cafe en Capsulas",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"capsulas",
+            "promo":"false",
+            "informacion":"Una mezcla de granos de café cultivados en las noches frías del norte, con un sabor y aroma únicos.",
+            "url":"./img/bags/bag-capsulas4.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"13",
+            "titulo":"Cafe en Capsulas",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"promo",
+            "promo":"true",
+            "informacion":"Una mezcla equilibrada de granos de café de diferentes regiones, con un sabor intenso y aroma rico. ",
+            "url":"./img/bags/bag-promo1.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"14",
+            "titulo":"Cafe Molido",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":7.20,
+            "tipo":"promo",
+            "promo":"true",
+            "informacion":"Un café tostado a la perfección con un sabor suave y un aroma intenso. Ideal para los amantes del café gourmet.",
+            "url":"./img/bags/bag-promo2.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"15",
+            "titulo":"Cafe Molido",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":5.90,
+            "tipo":"promo",
+            "promo":"true",
+            "informacion":" Un café con un tostado oscuro y fuerte, con un sabor intenso y un aroma ahumado.",
+            "url":"./img/bags/bag-promo3.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"16",
+            "titulo":"Cafe en Capsulas",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":8.90,
+            "tipo":"promo",
+            "promo":"true",
+            "informacion":"Un café con un aroma fresco y intenso que despierta los sentidos. ",
+            "url":"./img/bags/bag-promo4.png",
+            "download_url":"https://dream.ai/"
+        },{
+            "id":"17",
+            "titulo":"Artisan Roast",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"destacadas",
+            "promo":"false",
+            "informacion":"Un café tostado artesanalmente con un sabor y aroma únicos, perfecto para los amantes del café de alta calidad.",
+            "url":"./img/bags/des-bag1.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"18",
+            "titulo":"Pure Origin",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"destacadas",
+            "promo":"false",
+            "informacion":"Un café puro y auténtico, con un sabor y aroma únicos de su región de origen.",
+            "url":"./img/bags/des-bag2.png",
+            "download_url":"https://dream.ai/"
+        },
+        {
+            "id":"19",
+            "titulo":"Café Premium",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"destacadas",
+            "promo":"false",
+            "informacion":"Un café de alta calidad con un sabor y aroma excepcionales.",
+            "url":"./img/bags/des-bag3.png",
+            "download_url":"https://dream.ai/"
+        },{
+            "id":"20",
+            "titulo":"Supremo Select",
+            "author":"Dream ai",
+            "width":512,
+            "height":512,
+            "precio":6.90,
+            "tipo":"destacadas",
+            "promo":"false",
+            "informacion":"Una selección de los mejores granos de café, con un sabor y aroma suaves y equilibrados.",
+            "url":"./img/bags/des-bag4.png",
+            "download_url":"https://dream.ai/"
+        }
+    ],
+    "@blog":[
+        {
+            "id":"1",
+            "titulo":"blog1",
+            "author":"Vincent rivaud",
+            "width":600,
+            "height":600,
+            "informacion":"Por que compartiendo nos sentimos mejor",
+            "url":"./img/blog/blog-1.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/platos-apetitosos-y-tazon-de-batido-colocado-sobre-la-mesa-con-tazas-de-cafe-en-la-cafeteria-moderna-3838633/"
+        },{
+            "id":"2",
+            "titulo":"blog2",
+            "author":"Eiliv aceron",
+            "width":600,
+            "height":600,
+            "informacion":"cafe molido ecologico de Madagascar",
+            "url":"./img/blog/blog-2.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/comida-ligero-cafe-vaso-6895932/"
+        },{
+            "id":"3",
+            "titulo":"blog3",
+            "author":"Wallace Chuck",
+            "width":600,
+            "height":600,
+            "informacion":"cafe molido ecologico de Madagascar",
+            "url":"./img/blog/blog-3.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/pan-comida-plato-cafe-14792352/"
+        },{
+            "id":"4",
+            "titulo":"blog4",
+            "author":"Jonathan Borba",
+            "width":600,
+            "height":600,
+            "informacion":"cafe molido ecologico de Madagascar",
+            "url":"./img/blog/blog-4.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/verter-el-cafe-en-la-taza-de-cristal-2878711/"
+        },{
+            "id":"5",
+            "titulo":"blog5",
+            "author":"Alina matveycheva",
+            "width":600,
+            "height":600,
+            "informacion":"cafe molido ecologico de Madagascar",
+            "url":"./img/blog/blog-5.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/plato-cafe-taza-modelo-15291582/"
+        },{
+            "id":"6",
+            "titulo":"blog6",
+            "author":"Tyler Nix",
+            "width":600,
+            "height":600,
+            "informacion":"cafe molido ecologico de Madagascar",
+            "url":"./img/blog/blog-6.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/madera-cafeina-cafe-taza-2396220/"
+        },{
+            "id":"7",
+            "titulo":"blog7",
+            "author":"solod_sha",
+            "width":600,
+            "height":600,
+            "informacion":"cafe molido ecologico de Madagascar",
+            "url":"./img/blog/blog-7.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/cafe-beber-vaso-fotografia-de-comida-8605910/"
+        },{
+            "id":"8",
+            "titulo":"blog8",
+            "author":"Maiar Saeed",
+            "width":600,
+            "height":600,
+            "informacion":"cafe molido ecologico de Madagascar",
+            "url":"./img/blog/blog-8.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/cafeina-beber-vaso-cafe-helado-10279604/"
+        },{
+            "id":"9",
+            "titulo":"blog9",
+            "author":"Matt Weissinger",
+            "width":600,
+            "height":600,
+            "informacion":"cafe molido ecologico de Madagascar",
+            "url":"./img/blog/blog-9.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/cafeina-vaso-leche-bebida-10562116/"
+        },{
+            "id":"10",
+            "titulo":"blog10",
+            "author":"EKATERINA BOLOVTSOVA",
+            "width":600,
+            "height":600,
+            "informacion":"cafe molido ecologico de Madagascar",
+            "url":"./img/blog/blog-10.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/comida-plato-cafeina-cafe-5662125/"
+        }
+    ],
+    "@personas":[
+        {
+            "id":"1",
+            "name":"Angela Iglesia",
+            "profesion":"Escritora",
+            "comentario":"Acabo de probar el café Colombia y es increíblemente delicioso. La mezcla perfecta de dulzor y amargor lo hace ideal para cualquier momento del día.",
+            "author":"Vladislav Nahorny",
+            "width":300,
+            "height":300,
+            "url":"./img/personas/persona1.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/flores-nina-petalos-cara-13279258/"
+        },{
+            "id":"2",
+            "name":"Lucas Smith",
+            "profesion":"Médico",
+            "comentario":"Soy un gran fanático del café y debo decir que este es uno de los mejores que he probado. Altamente recomendado para aquellos amantes del café de calidad.",
+            "author":"Jonathas Cardoso",
+            "width":300,
+            "height":300,
+            "url":"./img/personas/persona2.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/hombre-retrato-sonriente-sonreir-13143984/"
+        },{
+            "id":"3",
+            "name":"Sofía Brown",
+            "profesion":"Abogada",
+            "comentario":"Mi experiencia de compra ha sido excelente desde el principio hasta el final. Además, el café de Etiopía es una verdadera joya, con un sabor único e inolvidable.",
+            "author":"Jonathan Meza",
+            "width":300,
+            "height":300,
+            "url":"./img/personas/persona3.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/persona-mujer-flores-cara-15415379/"
+        },{
+            "id":"4",
+            "name":"Bruno Johnson",
+            "profesion":"Ingeniero",
+            "comentario":"El paquete llegó a tiempo y la presentación es impresionante. Pero lo mejor de todo es el sabor del café, no puedo esperar a probar los demás.",
+            "author":"Bruno Curly",
+            "width":300,
+            "height":300,
+            "url":"./img/personas/persona4.jpg",
+            "download_url":"https://www.pexels.com/es-es/foto/hombre-persona-guapo-camisa-roja-13698039/"
+        }
+    ]
+    
+
+}

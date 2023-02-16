@@ -1,0 +1,33 @@
+.sc-form{
+    position: relative;
+    justify-content: center;
+}
+.d-form{
+    background-color: rgba(0, 0, 0, 0.438);
+    color: #ab9680;
+    font-size: 23px;
+    border-radius: 20%;
+    max-width: 900px;
+}
+.sc-form .form-control{
+    background-color: transparent;
+    border: #e5d2c4 1px solid;
+    color: #fff;
+}
+
+.sc-form  a{
+    font-size: 20px;
+    color:#fff ;
+}
+.sc-form  a:hover{
+    font-size: 20px;
+    color:#ab9680;
+}
+.sc-form button{
+    font-size: 25px;
+}
+.sc-form button:hover{
+    font-size: 25px;
+    background-color:#c5b19c ;
+
+}

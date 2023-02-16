@@ -1,0 +1,358 @@
+
+@media (max-width: 1125px) {
+  
+  .sec-carousel {
+    height: 650px;
+    width: auto;
+    overflow: hidden;
+  }
+  .sec-carousel button{
+    bottom: 10%;
+  }
+}
+@media (max-width: 920px) {
+  .sec-carousel {
+    height: 570px;
+    width: auto;
+  }
+  .sec-carousel button{
+    bottom: 10%;
+  }
+}
+
+@media (max-width: 820px) {
+  .sec-carousel {
+    height: 530px;
+    width: auto;
+  }
+  .sec-carousel button{
+    bottom: 10%;
+  }
+}
+@media (max-width: 720px) {
+  .sec-carousel {
+    height: 460px;
+    width: auto;
+  }
+  .sec-carousel button{
+    bottom: 20%;
+  }
+}
+@media (max-width: 670px) {
+  .sec-carousel {
+    height: 400px;
+    width: auto;
+  }
+  .sec-carousel button{
+    bottom: 20%;
+  }
+} 
+
+
+/*responsive iphone 12 pro */
+@media (max-width: 390px) {
+  /*body */
+  
+  body{
+    max-width: 390px !important;
+    overflow: hidden;
+    overflow-x: hidden;
+  }
+
+  div{
+    border: 1px blue solid;
+  }
+  section{
+    border:1px blue solid;
+  }
+
+  /*nav */
+  #navbar-principal{
+    width: 390px;
+    height: 60px;
+  }
+  .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+  }
+
+
+  .head-text {
+    font-family: "Brush Script mt", cursive;
+    font-size: 25px;
+    color: #ab9680;
+    margin-bottom: 15px;
+    z-index: 7;
+  }
+
+/*CARRITO DE COMPRA*/
+.popup-carrito {
+  display: none;
+  height: 250px;
+  max-width: 350px;
+  position: fixed;
+  left: 2px;
+  top: 260px;
+}
+
+.popup-carrito h2{
+  font-size: 14px;
+}
+
+.btn-carrito {
+  font-size: 13px;
+}
+
+/*CARRITO DE COMPRA END*/
+
+/*Login pop up*/
+.popup-login {
+  display: none;
+  height: 400px;
+  max-width: 300px;
+  transition: none;
+  left: 20px;
+  
+}
+.popup-login input {
+  font-size: 14px;
+}
+#btn-login {
+  color: #1d150b;
+  width: 150px;
+  font-size: 15px;
+}
+
+/*Login pop up end*/
+
+/*Register pop up*/
+.popup-register {
+  font-size: 14px !important;
+  display: none;
+  height: 600px;
+  max-width: 300px;
+  transition: none;
+  left: 20px;
+}
+
+.popup-register input {
+  font-size: 14px;
+  outline-color: #674c27;
+}
+#btn-register {
+  color: #1d150b;
+  width: 150px;
+}
+#btn-register:hover {
+  background-color: #ab9680;
+  box-shadow: 0px 2px 20px 10px rgba(209, 141, 84, 0.25);
+  width: 150px;
+  color: #fff;
+}
+/*Register pop up end*/
+
+/*Buscador*/
+.d-buscar {
+  max-width: 370px;
+}
+.d-buscar input{
+  width: 100%;
+  font-size: 14px;
+}
+.btns-buscar{
+  align-items: center;
+
+}
+.btns-buscar i{
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    background: #907761;
+}
+
+
+/*cookies */
+  
+.cookie-banner {
+  max-width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  z-index: 100;
+  left: 30px;
+  bottom: 50%;
+}
+.opc-cookies{
+  font-size: 10px;
+}
+.cookie-banner .c-title {
+  font-size: 15px;
+}
+.cookie-banner .c-p {
+  font-size: 10px;
+}
+.cookie-banner a {
+  font-size: 10px;
+}
+.cookie-banner a:hover {
+  font-size: 15px;
+}
+.cookie-banner .btn {
+  width: 30%;
+  font-size: 15px;
+}
+  /*carousel */
+  .sec-carousel {
+    height: 250px;
+    width: auto;
+  }
+  .sec-carousel button{
+    bottom: 60%;
+  }
+  .carousel-caption {
+    font-size: 18px;
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    background-color: #00000073;
+  }
+  
+  .carousel-item {
+    height: 850px;
+    width: 100%;
+  }
+/*info section*/
+.sec-info .container-fluid {
+  z-index: 2 !important;
+  position: absolute;
+  width: 100%;
+}
+.info {
+  background: #000;
+  padding: 13px;
+  font-size: 13px;
+  color: #e5d2c4;
+}
+.info p {
+  font-size: 13px;
+}
+.info h3{
+  font-size: 14px;
+}
+
+/*section Story*/
+.sc-story .sc-story-div {
+  width: 100%;
+  height: 450px;
+  padding: 30px 15px;
+}
+#sc-story-div-cont{
+  position: absolute;
+  bottom: 1px;
+  left: 5px;
+  width: 100%;
+  height: 400px;
+  background-color: #00000065;
+}
+.sc-story p {
+  font-size: 13px;
+}
+.sc-story h2 {
+  z-index: 1;
+  font-size: 15px;
+}
+/*section Services */
+.sc-services .icon {
+  width: 60px;
+  height: 60px;
+}
+
+.d-services span {
+  font-size: 30px;
+}
+.icons-services {
+  width: 64px;
+  height: 64px;
+}
+.text-services{
+  font-size: 12px;
+}
+
+
+/*Records de servicios */
+.sc-counter .icon {
+  width: 60px;
+  height: 60px;
+}
+.sc-counter .container{
+  width:290px;
+}
+.sc-counter .icon span {
+  font-size: 30px;
+}
+
+.icon-coffee {
+  width: 30px;
+  height: 30px;
+}
+
+/*Productos*/
+.d-dest {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.sc-desta .text-center h2{
+  font-size: 16px;
+}
+
+.d-dest p {
+  color: #ffffff9a;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*opiniones*/
+.d-opi .cliente span {
+  font-size: 13px;
+}
+
+
+
+/*FOOTER*/
+.sc-footer {
+  font-size: 15px;
+}
+
+.d-footer .d-icons a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon-twitter {
+  font-size: 15px;
+}
+
+.icon-tiktok {
+  font-size: 15px;
+}
+.icon-instagram {
+  font-size: 15px;
+}
+
+.text-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+}
+
+@media (min-width: 768px) {
+  .sc-story .sc-story-div .overlap {
+    margin-left: -150px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
